@@ -7,3 +7,4 @@ Pillow
 streamlit-folium
 folium
 plotly
+reportlab
