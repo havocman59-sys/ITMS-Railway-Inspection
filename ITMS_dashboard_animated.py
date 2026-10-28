@@ -30,8 +30,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, Tabl
 # CONFIGURATION
 # ============================================================
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = BASE_DIR / "runs" / "detect" / \
-    "railway_defect_model-2" / "weights" / "best.pt"
+MODEL_PATH = BASE_DIR / "best.pt"
 TRACK_CSV = BASE_DIR / "track_locations.csv"
 DEFAULT_IMAGE_DIR = BASE_DIR / "track_dataset" / "images"
 DB_PATH = BASE_DIR / "itms_inspections.db"
